@@ -6,7 +6,7 @@ from selenium import webdriver
 driver = webdriver.Chrome('chromedriver')
 driver.implicitly_wait(3)
 
-conn = pymysql.connect(host='localhost', user='root', password='root', db='mini3', charset='utf8')
+conn = pymysql.connect(host='--', user='--', password='--', db='--', charset='utf8')
 
 cursor = conn.cursor()
 
