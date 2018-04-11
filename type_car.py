@@ -3,7 +3,7 @@ import pymysql
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
-conn = pymysql.connect(host='127.0.0.1', user='root', password='1234', db='mini3', charset='utf8', autocommit=True)
+conn = pymysql.connect(host='--', user='--', password='--', db='--', charset='utf8', autocommit=True)
 cursor = conn.cursor()
 sql = "select mnf_no, domestic from mnf order by mnf_no"
 cursor.execute(sql)
